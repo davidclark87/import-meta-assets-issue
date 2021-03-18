@@ -1,14 +1,8 @@
-## Bug repro steps
+# import-meta-assets-issue
+Minimal repro environment for issue I'm having using @web/rollup-plugin-import-meta-assets: 
+https://github.com/modernweb-dev/web/issues/1366
 
-Run `npm run start:build` and note that sourcemaps are broken.
-
-In `rollup.config.js`, comment out the use of `importMetaAssets()` then re-run `npm run start:build`. Sourcemaps are now working.
-
-This project was generated using npm init @open-wc and trimmed down for clarity. Rest of this README output is from the scaffolder.
-
-<p align="center">
-  <img width="200" src="https://open-wc.org/hero.png"></img>
-</p>
+See that issue for repro steps. This project was generated using npm init @open-wc and trimmed down for clarity. Rest of this README output is from the scaffolder.
 
 ## Open-wc Starter App
 
